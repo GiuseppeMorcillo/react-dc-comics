@@ -34,6 +34,12 @@ body {
 
 }
 
+.containerMain {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
 .header {
   background-color: #ffffffff;
   color: white;
@@ -65,4 +71,39 @@ body {
   color: #000;
   text-decoration: none;
   font-weight: bold;
+}
+
+
+.content-here {
+  padding: 20px;
+}
+
+.digital-comics {
+  padding: 20px;
+  background-color: #0282f9;
+
+}
+
+.digital-comics ul {
+  width: 80%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.digital-comics li img {
+  margin-right: 20px;
+  width: 60px;
+  /* Aggiungi un po' di spazio a destra dell'immagine */
+  vertical-align: middle;
+  /* Allinea verticalmente l'immagine al centro */
+}
+
+
+.digital-comics a {
+  text-decoration: none;
+  color: white;
 }
