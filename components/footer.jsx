@@ -51,7 +51,6 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div><img className="footerLogoBg" src="/public/img/dc-logo-bg.png" alt="DC Logo" /></div>
             </div>
             <div className="secondaryFooter">
                 <div className="container">
