@@ -37,7 +37,14 @@ body {
 .containerMain {
   width: 100%;
   margin: 0 auto;
-  padding: 20px 0px;
+  padding-top: 20px;
+}
+
+.containerFooter {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  display: relative;
 }
 
 .header {
@@ -97,13 +104,99 @@ body {
 .digital-comics li img {
   margin-right: 20px;
   width: 60px;
-  /* Aggiungi un po' di spazio a destra dell'immagine */
   vertical-align: middle;
-  /* Allinea verticalmente l'immagine al centro */
 }
-
 
 .digital-comics a {
   text-decoration: none;
   color: white;
+}
+
+.mainFooter {
+  background-image: url(/public/img/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+  color: white;
+  z-index: 0;
+}
+
+.footerColumns {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.footerColumn {
+  width: 200px;
+  text-align: left;
+}
+
+
+.footerColumn h3 {
+  margin-bottom: 5px;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerColumn li {
+  margin-bottom: 0px;
+}
+
+.footerColumn a {
+  font-size: 0.6rem;
+  color: #959595;
+  text-decoration: none;
+}
+
+.footerLogoBg {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  width: 30%;
+}
+
+.secondaryFooter {
+  background-color: #303030;
+  color: white;
+  padding: 20px 0;
+  z-index: 1;
+}
+
+.secondaryFooter .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signUpButton {
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.socialIcons h3 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.socialIcons img {
+  width: 30px;
+  height: 30px;
 }
