@@ -1,4 +1,4 @@
-function Footer() {
+function Footer({ footerLinks }) {
     return (
         <footer>
             <div className="mainFooter">
@@ -7,46 +7,46 @@ function Footer() {
                         <div className="footerColumn">
                             <h3>DC COMICS</h3>
                             <ul>
-                                <li><a href="#">Characters</a></li>
-                                <li><a href="#">Comics</a></li>
-                                <li><a href="#">Movies</a></li>
-                                <li><a href="#">TV</a></li>
-                                <li><a href="#">Games</a></li>
-                                <li><a href="#">Videos</a></li>
-                                <li><a href="#">News</a></li>
+                                <li><a href="#">{footerLinks.dcComics[0]}</a></li>
+                                <li><a href="#">{footerLinks.dcComics[1]}</a></li>
+                                <li><a href="#">{footerLinks.dcComics[2]}</a></li>
+                                <li><a href="#">{footerLinks.dcComics[3]}</a></li>
+                                <li><a href="#">{footerLinks.dcComics[4]}</a></li>
+                                <li><a href="#">{footerLinks.dcComics[5]}</a></li>
+                                <li><a href="#">{footerLinks.dcComics[6]}</a></li>
                             </ul>
                         </div>
                         <div className="footerColumn">
                             <h3>DC</h3>
                             <ul>
-                                <li><a href="#">Terms Of Use</a></li>
-                                <li><a href="#">Privacy policy (New)</a></li>
-                                <li><a href="#">Ad Choices</a></li>
-                                <li><a href="#">Advertising</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Subscriptions</a></li>
-                                <li><a href="#">Talent Workshops</a></li>
-                                <li><a href="#">CPSC Certificates</a></li>
-                                <li><a href="#">Ratings</a></li>
-                                <li><a href="#">Shop Help</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">{footerLinks.dc[0]}</a></li>
+                                <li><a href="#">{footerLinks.dc[1]}</a></li>
+                                <li><a href="#">{footerLinks.dc[2]}</a></li>
+                                <li><a href="#">{footerLinks.dc[3]}</a></li>
+                                <li><a href="#">{footerLinks.dc[4]}</a></li>
+                                <li><a href="#">{footerLinks.dc[5]}</a></li>
+                                <li><a href="#">{footerLinks.dc[6]}</a></li>
+                                <li><a href="#">{footerLinks.dc[7]}</a></li>
+                                <li><a href="#">{footerLinks.dc[8]}</a></li>
+                                <li><a href="#">{footerLinks.dc[9]}</a></li>
+                                <li><a href="#">{footerLinks.dc[10]}</a></li>
                             </ul>
                         </div>
                         <div className="footerColumn">
                             <h3>SITES</h3>
                             <ul>
-                                <li><a href="#">DC</a></li>
-                                <li><a href="#">MAD Magazine</a></li>
-                                <li><a href="#">DC Kids</a></li>
-                                <li><a href="#">DC Universe</a></li>
-                                <li><a href="#">DC Power Visa</a></li>
+                                <li><a href="#">{footerLinks.sites[0]}</a></li>
+                                <li><a href="#">{footerLinks.sites[1]}</a></li>
+                                <li><a href="#">{footerLinks.sites[2]}</a></li>
+                                <li><a href="#">{footerLinks.sites[3]}</a></li>
+                                <li><a href="#">{footerLinks.sites[4]}</a></li>
                             </ul>
                         </div>
                         <div className="footerColumn">
                             <h3>SHOP</h3>
                             <ul>
-                                <li><a href="#">Shop DC</a></li>
-                                <li><a href="#">Shop DC Collectibles</a></li>
+                                <li><a href="#">{footerLinks.shop[0]}</a></li>
+                                <li><a href="#">{footerLinks.shop[1]}</a></li>
                             </ul>
                         </div>
                     </div>
