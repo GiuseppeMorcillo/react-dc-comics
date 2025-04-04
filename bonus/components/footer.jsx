@@ -10,40 +10,30 @@ function Footer({ footerLinks }) {
                                 {
                                     footerLinks.dcComics.map(link => <li><a href="#">{link}</a></li>)
                                 }
-
                             </ul>
                         </div>
                         <div className="footerColumn">
                             <h3>DC</h3>
                             <ul>
-                                <li><a href="#">{footerLinks.dc[0]}</a></li>
-                                <li><a href="#">{footerLinks.dc[1]}</a></li>
-                                <li><a href="#">{footerLinks.dc[2]}</a></li>
-                                <li><a href="#">{footerLinks.dc[3]}</a></li>
-                                <li><a href="#">{footerLinks.dc[4]}</a></li>
-                                <li><a href="#">{footerLinks.dc[5]}</a></li>
-                                <li><a href="#">{footerLinks.dc[6]}</a></li>
-                                <li><a href="#">{footerLinks.dc[7]}</a></li>
-                                <li><a href="#">{footerLinks.dc[8]}</a></li>
-                                <li><a href="#">{footerLinks.dc[9]}</a></li>
-                                <li><a href="#">{footerLinks.dc[10]}</a></li>
+                                {
+                                    footerLinks.dc.map(link => <li><a href="#">{link}</a></li>)
+                                }
                             </ul>
                         </div>
                         <div className="footerColumn">
                             <h3>SITES</h3>
                             <ul>
-                                <li><a href="#">{footerLinks.sites[0]}</a></li>
-                                <li><a href="#">{footerLinks.sites[1]}</a></li>
-                                <li><a href="#">{footerLinks.sites[2]}</a></li>
-                                <li><a href="#">{footerLinks.sites[3]}</a></li>
-                                <li><a href="#">{footerLinks.sites[4]}</a></li>
+                                {
+                                    footerLinks.sites.map(link => <li><a href="#">{link}</a></li>)
+                                }
                             </ul>
                         </div>
                         <div className="footerColumn">
                             <h3>SHOP</h3>
                             <ul>
-                                <li><a href="#">{footerLinks.shop[0]}</a></li>
-                                <li><a href="#">{footerLinks.shop[1]}</a></li>
+                                {
+                                    footerLinks.shop.map(link => <li><a href="#">{link}</a></li>)
+                                }
                             </ul>
                         </div>
                     </div>
