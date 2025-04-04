@@ -36,9 +36,9 @@ const footerLinks = {
 function App() {
   return (
     <div className="app">
-      <Header />
+      <Header links={navLinks} />
       <Main />
-      <Footer />
+      <Footer footerLinks={footerLinks} />
     </div>
   )
 }
