@@ -2,7 +2,7 @@ function Footer() {
     return (
         <footer>
             <div className="mainFooter">
-                <div className="containerFooter"> {/* Aggiungi un container per allineare il contenuto */}
+                <div className="containerFooter">
                     <div className="footerColumns">
                         <div className="footerColumn">
                             <h3>DC COMICS</h3>

@@ -113,7 +113,7 @@ body {
 }
 
 .mainFooter {
-  background-image: url(/public/img/dc-logo-bg.png), url(/public/img/footer-bg.jpg);
+  background-image: url(/img/dc-logo-bg.png), url(/img/footer-bg.jpg);
   background-size: auto, cover;
   background-repeat: no-repeat, no-repeat;
   background-position: right, center;
