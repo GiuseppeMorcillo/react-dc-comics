@@ -7,13 +7,10 @@ function Footer({ footerLinks }) {
                         <div className="footerColumn">
                             <h3>DC COMICS</h3>
                             <ul>
-                                <li><a href="#">{footerLinks.dcComics[0]}</a></li>
-                                <li><a href="#">{footerLinks.dcComics[1]}</a></li>
-                                <li><a href="#">{footerLinks.dcComics[2]}</a></li>
-                                <li><a href="#">{footerLinks.dcComics[3]}</a></li>
-                                <li><a href="#">{footerLinks.dcComics[4]}</a></li>
-                                <li><a href="#">{footerLinks.dcComics[5]}</a></li>
-                                <li><a href="#">{footerLinks.dcComics[6]}</a></li>
+                                {
+                                    footerLinks.dcComics.map(link => <li><a href="#">{link}</a></li>)
+                                }
+
                             </ul>
                         </div>
                         <div className="footerColumn">
