@@ -1,8 +1,20 @@
+import ComicCard from "./products/ComicCard";
+import comics from "./products/comics.js"
 function Main() {
     return <main>
         <div className="containerMain">
             <div className="content-here">
-                <h2>Content Here</h2>
+                <div className="series-banner">
+                    <h2>CURRENT SERIES</h2>
+                </div>
+                <div className="comic-grid">
+                    {comics.map((comic, index) => (
+                        <ComicCard key={index} title={comic.title} thumb={comic.thumb} />
+                    ))}
+                </div>
+                <div className="load-more">
+                    <button>LOAD MORE</button>
+                </div>
             </div>
             <div className="digital-comics">
                 <ul>
