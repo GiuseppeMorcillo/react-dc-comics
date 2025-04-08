@@ -83,6 +83,7 @@ body {
 
 .content-here {
   padding: 20px;
+  position: relative;
 }
 
 .digital-comics {
